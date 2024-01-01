@@ -9,7 +9,7 @@ const app = express();
 
 // Initialize Redis client
 const redisClient = new Redis({
-  host: "ramsredis-jnwy7y.serverless.use1.cache.amazonaws.com:6379",
+  host: "dem-ro.jnwy7y.ng.0001.use1.cache.amazonaws.com:6379",
 });
 
 // Read the JSON data from the file
